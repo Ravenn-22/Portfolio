@@ -449,7 +449,11 @@ a{
    width: 100%;
    left: 0;
    top: 0;
-   font-size: 1em;
+   font-size: clamp(1.8rem, 5vw, 50px);
+   font-weight: 600;
+   word-wrap: break-word;
+   overflow: hidden;
+   white-space: nowrap;
     text-align: left;
     backface-visibility: hidden;
     opacity: 0;
